@@ -11,4 +11,5 @@ clear: both;
 }
 #body{
 float: right;
+border-left: 1px blue dotted;
 }

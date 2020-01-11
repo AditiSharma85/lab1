@@ -1,0 +1,36 @@
+h1 {
+	margin:5px 10px;
+	border-top: 5px solid red;
+  border-bottom: 5px solid red;
+   font-family:"Times New Roman",Times,serif;
+}
+
+h2 {
+	margin:5px 10px;
+  border-bottom: 4px dotted blue;
+  font-family:"Times New Roman",Times,serif;
+}
+#menu{
+float: left;
+clear: both;
+}
+#body{
+float: left;
+clear: both;
+color: blue; 
+font-family: Lucidatypewriter, monospace;
+}
+#Exp{
+float: left;
+clear: both;
+color: green;
+font-family: Comic Sans, Comic Sans MS, cursive;
+}
+#abc{
+  border: 1px solid purple;
+  box-sizing: border-box;
+  height: 250px;
+  margin: 5px 3px 2px 7px;
+  padding: 4px 3px 2px;
+  width: 400px;
+}

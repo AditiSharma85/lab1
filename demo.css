@@ -1,15 +1,13 @@
 h1{
 background-color: yellow;
-
 }
-h2 #menu header{
-	margin-bottom: 0ptx;
+h2#menu-header{
+	margin-bottom: 0px;
 }
 #menu{
-float:left;
+float: left;
 clear: both;
 }
 #body{
 float: right;
-border-left: 1px blue dotted;
 }

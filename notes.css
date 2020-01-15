@@ -21,7 +21,6 @@ color: blue;
 font-family: Lucidatypewriter, monospace;
 }
 #Exp{
-float: left;
 clear: both;
 color: green;
 font-family: Comic Sans, Comic Sans MS, cursive;
@@ -33,4 +32,9 @@ font-family: Comic Sans, Comic Sans MS, cursive;
   margin: 5px 3px 2px 7px;
   padding: 4px 3px 2px;
   width: 400px;
+}
+main{
+  column-count: 3 ;
+  column-gap: 2.5em;
+  column-rule: dotted;
 }

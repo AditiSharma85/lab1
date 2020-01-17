@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+	<meta charset="utf-8">
+	<title>Week 2.2 Lab: Forms</title>
+  </head>
+  <body>
+    <h3>Search Google! </h3>
+    <form method='get' action="http://www.google.com/search">
+      <label for="p">Do you want to search for something about star wars???</label>
+      <input type="search" id="p">
+      <input type="submit" name="submit" id="search" value="Search for SW !!!"><br><br>
+      What is your name?<input type="text" name="username"><br><br>
+      Password:<input type="password" name="password" required><br><br>
+      Choice:<br> 
+      <input type="radio" value="Yes" checked>Yes<br>
+      <input type="radio" value="No">No<br>
+      <input type="radio" value="Maybe">Maybe<br><br>
+      Select:
+      <select>
+           <option value="Chocolate">Chocolate</option>
+           <option value="Vanilla">Vanilla</option>
+           <option value="Strawberry">Strawberry</option>
+    </select><br><br>
+    <label for="phone">Telephone number:</label>
+    <input type="tel" id="phone" name="phone" pattern="\(\d{3}\)\d{3}-\d{4}"
+    required>
+
+<small>Format:(area-code)&lt;three-digits&gt;-&lt;four-digits&gt;</small>
+      
+    </form>
+  </body>
+</html>
